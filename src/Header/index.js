@@ -18,7 +18,6 @@ export const Header = () => {
                 <HeaderItem>Product</HeaderItem>
                 <HeaderItem>Company</HeaderItem>
                 <HeaderItem>Connect</HeaderItem>
-                
             </HeaderMenu>
         </HeaderContainer>
       </Head>
