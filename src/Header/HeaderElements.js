@@ -13,15 +13,27 @@ export const HeaderContainer = styled.div`
 `;
 
 export const HeaderTitle = styled.h1`
-    font-size: 25px;
+    width: 300px;
+    height: 100px;
+    font-size: 45px;
     color: var(--white);
+    padding: 40px 0 0 40px;
+    display: inline-block;
 `;
 
-export const HeaderMenu = styled.div`
-    position: absolute;
+export const HeaderMenu = styled.ul`
+    width: 600px;
+    height: 100px;
+    padding: 50px 0 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    list-style: none;
 `;
 
-export const HeaderItem = styled.a`
+export const HeaderItem = styled.li`
+    width: 150px;
+    height: 100px;
     font-size: 20px;
     color: var(--white);
 `;
