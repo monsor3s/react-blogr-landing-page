@@ -22,11 +22,11 @@ export const Header = () => {
                 <HeaderItem>Product</HeaderItem>
                 <HeaderItem>Company</HeaderItem>
                 <HeaderItem>Connect</HeaderItem>
-              <HeaderLogin>
+            </HeaderMenu>
+            <HeaderLogin>
                 <ButtonLogin>Login</ButtonLogin>
                 <ButtonSignUp>SignUp</ButtonSignUp>
-              </HeaderLogin>
-            </HeaderMenu>
+            </HeaderLogin>
         </HeaderContainer>
       </Head>
     </>

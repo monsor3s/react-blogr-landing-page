@@ -13,11 +13,11 @@ export const HeaderContainer = styled.div`
 `;
 
 export const HeaderMenu = styled.ul`
-    width: 800px;
+    width: 700px;
     height: 100px;
     padding: 50px 0 0 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
 `;
@@ -36,16 +36,18 @@ export const HeaderItem = styled.li`
     width: 120px;
     height: 100px;
     font-size: 20px;
+    font-weight: bold;
     color: var(--white);
     display: flex;
     align-items: center;
 `;
 
 export const HeaderLogin = styled.div`
-    width: 400px;
+    width: 600px;
     height: 100px;
+    padding: 50px 0 0 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 `;
 
