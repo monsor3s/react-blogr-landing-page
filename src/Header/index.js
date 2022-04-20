@@ -1,16 +1,15 @@
 import React from 'react'
 
 import { 
-  ButtonLearn,
-  ButtonStart,
+  
     Head,
-    HeaderBody,
     HeaderContainer, 
-    HeaderItem, 
-    HeaderMenu, 
+    HeaderMenu,
     HeaderTitle, 
-    SubtitleHeaderBody, 
-    TitleHeaderBody
+    HeaderItem, 
+    HeaderLogin,
+    ButtonLogin,
+    ButtonSignUp,
     } from './HeaderElements'
 
 export const Header = () => {
@@ -18,15 +17,16 @@ export const Header = () => {
     <>
       <Head>
         <HeaderContainer>
-            <HeaderTitle>Blogr</HeaderTitle>
             <HeaderMenu>
+              <HeaderTitle>Blogr</HeaderTitle>
                 <HeaderItem>Product</HeaderItem>
                 <HeaderItem>Company</HeaderItem>
                 <HeaderItem>Connect</HeaderItem>
+              <HeaderLogin>
+                <ButtonLogin>Login</ButtonLogin>
+                <ButtonSignUp>SignUp</ButtonSignUp>
+              </HeaderLogin>
             </HeaderMenu>
-            <HeaderBody>
-            
-            </HeaderBody>
         </HeaderContainer>
       </Head>
     </>
