@@ -115,5 +115,7 @@ export const ButtonStart = styled(ButtonSignUp)`
 export const ButtonLearn = styled(ButtonSignUp)`
     display: flex;
     flex-direction: row;
+    border: 1px solid var(--white);
+    background-color: #ff6563;
     color: var(--white);
 `;
