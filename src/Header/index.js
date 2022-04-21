@@ -13,6 +13,8 @@ import {
     HeaderBody,
     HeaderBodyTitle,
     HeaderBodySpan,
+    ButtonStart,
+    ButtonLearn,
     } from './HeaderElements'
 
 export const Header = () => {
@@ -33,6 +35,8 @@ export const Header = () => {
             <HeaderBody>
               <HeaderBodyTitle>A modern publishing platform</HeaderBodyTitle>
               <HeaderBodySpan>Grow your audience and build your online brand</HeaderBodySpan>
+                <ButtonStart>Start for Free</ButtonStart>
+                <ButtonLearn>Learn More</ButtonLearn>
             </HeaderBody>
         </HeaderContainer>
       </Head>

@@ -8,7 +8,7 @@ export const HeaderContainer = styled.div`
     display: flex;
     z-index: 99;
     height: 600px;
-    background-color: var(--light-red);
+    background: linear-gradient(90deg, rgba(255,131,109,1) 0%, rgba(255,67,89,1) 57%, rgba(254,78,91,1) 100%);
     border-radius: 0 0 0 100px;
 `;
 
@@ -74,8 +74,9 @@ export const ButtonSignUp = styled.button`
 `;
 
 export const HeaderBody = styled.div`
-    width: 600px;
-    height: 300px;
+    width: 620px;
+    height: 200px;
+    margin: 200px 0 0 400px;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -86,16 +87,33 @@ export const HeaderBody = styled.div`
 
 export const HeaderBodyTitle = styled.h1`
     width: 700px;
-    height: 100px;
+    height: 50px;
     font-size: 45px;
+    position: relative;
     color: var(--white);
     display: flex;
+    justify-content: center;
+    align-items: center;
 `;
 
 export const HeaderBodySpan = styled.span`
-    width: 500px;
-    height: 100px;
-    font-size: 30px;
-    color: var(--white);
+    width: 700px;
+    height: 50px;
+    font-size: 20px;
+    position: relative;
+    color: var(--gray-blue);
     display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const ButtonStart = styled(ButtonSignUp)`
+    display: flex;
+    flex-direction: row;
+`;
+
+export const ButtonLearn = styled(ButtonSignUp)`
+    display: flex;
+    flex-direction: row;
+    color: var(--white);
 `;
