@@ -15,7 +15,7 @@ export const HeaderContainer = styled.div`
 export const HeaderMenu = styled.ul`
     width: 700px;
     height: 100px;
-    padding: 50px 0 0 50px;
+    padding: 50px 0 0 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -73,3 +73,29 @@ export const ButtonSignUp = styled.button`
     align-items: center;
 `;
 
+export const HeaderBody = styled.div`
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+`;
+
+export const HeaderBodyTitle = styled.h1`
+    width: 700px;
+    height: 100px;
+    font-size: 45px;
+    color: var(--white);
+    display: flex;
+`;
+
+export const HeaderBodySpan = styled.span`
+    width: 500px;
+    height: 100px;
+    font-size: 30px;
+    color: var(--white);
+    display: flex;
+`;

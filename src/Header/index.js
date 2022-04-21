@@ -10,6 +10,9 @@ import {
     HeaderLogin,
     ButtonLogin,
     ButtonSignUp,
+    HeaderBody,
+    HeaderBodyTitle,
+    HeaderBodySpan,
     } from './HeaderElements'
 
 export const Header = () => {
@@ -27,6 +30,10 @@ export const Header = () => {
                 <ButtonLogin>Login</ButtonLogin>
                 <ButtonSignUp>SignUp</ButtonSignUp>
             </HeaderLogin>
+            <HeaderBody>
+              <HeaderBodyTitle>A modern publishing platform</HeaderBodyTitle>
+              <HeaderBodySpan>Grow your audience and build your online brand</HeaderBodySpan>
+            </HeaderBody>
         </HeaderContainer>
       </Head>
     </>
