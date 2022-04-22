@@ -19,7 +19,7 @@ export const ImageBackgroundDesk = styled.img`
     width: 1800px;
     position: absolute;
     opacity: 0.8;
-    
+    object-fit: contain;
 `;
 
 export const HeaderMenu = styled.ul`
