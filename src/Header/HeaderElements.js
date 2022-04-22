@@ -10,14 +10,16 @@ export const HeaderContainer = styled.div`
     height: 600px;
     background: linear-gradient(90deg, rgba(255,131,109,1) 0%, rgba(255,67,89,1) 57%, rgba(254,78,91,1) 100%);
     border-radius: 0 0 0 100px;
+    overflow: hidden;
 `;
 
 export const ImageBackgroundDesk = styled.img`
     z-index: 0;
-    width: 2400px;
-    height: 2000px;
+    height: 1440px;
+    width: 1800px;
     position: absolute;
     opacity: 0.8;
+    
 `;
 
 export const HeaderMenu = styled.ul`
