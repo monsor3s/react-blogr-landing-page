@@ -12,6 +12,14 @@ export const HeaderContainer = styled.div`
     border-radius: 0 0 0 100px;
 `;
 
+export const ImageBackgroundDesk = styled.img`
+    z-index: 0;
+    width: 2400px;
+    height: 2000px;
+    position: absolute;
+    opacity: 0.8;
+`;
+
 export const HeaderMenu = styled.ul`
     width: 700px;
     height: 100px;
