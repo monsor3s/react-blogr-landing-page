@@ -25,7 +25,7 @@ export const Header = () => {
     <>
       <Head>
         <HeaderContainer>
-          <ImageBackgroundDesk src={ bgDesk } alt="Fundo Desk" />
+          <ImageBackgroundDesk  src={ bgDesk }alt="Fundo Desk" />
             <HeaderMenu>
               <HeaderTitle>Blogr</HeaderTitle>
                 <HeaderItem>Product</HeaderItem>

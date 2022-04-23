@@ -15,11 +15,10 @@ export const HeaderContainer = styled.div`
 
 export const ImageBackgroundDesk = styled.img`
     z-index: 0;
-    height: 1440px;
-    width: 1800px;
+    background-size: 100% 100%;
     position: absolute;
     opacity: 0.8;
-    object-fit: contain;
+    
 `;
 
 export const HeaderMenu = styled.ul`
