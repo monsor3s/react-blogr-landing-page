@@ -117,13 +117,15 @@ export const HeaderBodySpan = styled.span`
 `;
 
 export const ButtonStart = styled(ButtonSignUp)`
-    display: flex;
-    flex-direction: row;
+    position: absolute;
+    left: 200px;
+    bottom: 0;
 `;
 
 export const ButtonLearn = styled(ButtonSignUp)`
-    display: flex;
-    flex-direction: row;
+    position: absolute;
+    right: 200px;
+    bottom: 0;
     border: 1px solid var(--white);
     background-color: #ff6563;
     color: var(--white);
