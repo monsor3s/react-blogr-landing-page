@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import bgDesk from '../images/bg-pattern-intro-desktop.svg'
+
 
 export const Head = styled.div`
 `;
@@ -13,15 +15,17 @@ export const HeaderContainer = styled.div`
     overflow: hidden;
 `;
 
-export const ImageBackgroundDesk = styled.img`
+export const ImageBackgroundDesk = styled.div`
     z-index: 0;
-    background-size: 100% 100%;
+    background-image: url(${bgDesk});
+    background-size: cover;
+    background-size: 210% 44%;
+    background-position: center;
     position: absolute;
-    opacity: 0.8;
-    
 `;
 
 export const HeaderMenu = styled.ul`
+    z-index: 99;
     width: 700px;
     height: 100px;
     padding: 50px 0 0 80px;
@@ -32,6 +36,7 @@ export const HeaderMenu = styled.ul`
 `;
 
 export const HeaderTitle = styled.h1`
+    z-index: 99;
     width: 200px;
     height: 100px;
     font-size: 45px;
@@ -42,6 +47,7 @@ export const HeaderTitle = styled.h1`
 `;
 
 export const HeaderItem = styled.li`
+    z-index: 99;
     width: 120px;
     height: 100px;
     font-size: 20px;
@@ -52,6 +58,7 @@ export const HeaderItem = styled.li`
 `;
 
 export const HeaderLogin = styled.div`
+    z-index: 99;
     width: 600px;
     height: 100px;
     padding: 50px 0 0 0;
@@ -61,6 +68,7 @@ export const HeaderLogin = styled.div`
 `;
 
 export const ButtonLogin = styled.a`
+    z-index: 99;
     font-size: 14px;
     color: var(--white);
     width: 80px;
@@ -71,6 +79,7 @@ export const ButtonLogin = styled.a`
 `;
 
 export const ButtonSignUp = styled.button`
+    z-index: 99;
     font-size: 14px;
     width: 100px;
     height: 30px;
@@ -83,6 +92,7 @@ export const ButtonSignUp = styled.button`
 `;
 
 export const HeaderBody = styled.div`
+    z-index: 99;
     width: 620px;
     height: 200px;
     margin: 200px 0 0 400px;
@@ -95,6 +105,7 @@ export const HeaderBody = styled.div`
 `;
 
 export const HeaderBodyTitle = styled.h1`
+    z-index: 99;
     width: 700px;
     height: 50px;
     font-size: 45px;
@@ -106,6 +117,7 @@ export const HeaderBodyTitle = styled.h1`
 `;
 
 export const HeaderBodySpan = styled.span`
+    z-index: 99;
     width: 700px;
     height: 50px;
     font-size: 20px;
@@ -127,6 +139,6 @@ export const ButtonLearn = styled(ButtonSignUp)`
     right: 200px;
     bottom: 0;
     border: 1px solid var(--white);
-    background-color: #ff6563;
+    background-color: #ff585e;
     color: var(--white);
 `;

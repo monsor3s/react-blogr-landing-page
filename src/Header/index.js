@@ -18,14 +18,12 @@ import {
     ButtonLearn,
     } from './HeaderElements'
 
-import bgDesk from '../images/bg-pattern-intro-desktop.svg'
-
 export const Header = () => {
   return (
     <>
       <Head>
         <HeaderContainer>
-          <ImageBackgroundDesk  src={ bgDesk }alt="Fundo Desk" />
+          <ImageBackgroundDesk alt="Fundo Desk" />
             <HeaderMenu>
               <HeaderTitle>Blogr</HeaderTitle>
                 <HeaderItem>Product</HeaderItem>
