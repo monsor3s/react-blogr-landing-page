@@ -55,6 +55,10 @@ export const HeaderItem = styled.li`
     color: var(--white);
     display: flex;
     align-items: center;
+
+    &:hover {
+        text-decoration: underline;
+    }
 `;
 
 export const HeaderLogin = styled.div`
@@ -89,6 +93,12 @@ export const ButtonSignUp = styled.button`
     border: 0;
     justify-content: center;
     align-items: center;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #fe7c86;
+        color: var(--white);
+    }
 `;
 
 export const HeaderBody = styled.div`
@@ -132,6 +142,11 @@ export const ButtonStart = styled(ButtonSignUp)`
     position: absolute;
     left: 200px;
     bottom: 0;
+
+    &:hover {
+        background-color: #fe7c86;
+        color: var(--white);
+    }
 `;
 
 export const ButtonLearn = styled(ButtonSignUp)`
@@ -141,4 +156,9 @@ export const ButtonLearn = styled(ButtonSignUp)`
     border: 1px solid var(--white);
     background-color: #ff585e;
     color: var(--white);
+
+    &:hover {
+        background-color: var(--white);
+        color: var(--light-red);
+    }
 `;
