@@ -16,6 +16,9 @@ import {
     HeaderBodySpan,
     ButtonStart,
     ButtonLearn,
+    DropDownListContainer,
+    DropDownList,
+    ListItem,
     } from './HeaderElements'
 
 export const Header = () => {
@@ -30,6 +33,13 @@ export const Header = () => {
                 <HeaderItem>Company</HeaderItem>
                 <HeaderItem>Connect</HeaderItem>
             </HeaderMenu>
+            <DropDownListContainer>
+              <DropDownList>
+                <ListItem>Contact</ListItem>
+                <ListItem>Newsletter</ListItem>
+                <ListItem>Linkedln</ListItem>
+              </DropDownList>
+            </DropDownListContainer>
             <HeaderLogin>
                 <ButtonLogin>Login</ButtonLogin>
                 <ButtonSignUp>SignUp</ButtonSignUp>

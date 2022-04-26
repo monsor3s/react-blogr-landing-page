@@ -61,6 +61,21 @@ export const HeaderItem = styled.li`
     }
 `;
 
+export const DropDownListContainer = styled.div`
+    z-index: 99;
+    width: 150px;
+    height: 170px;
+    background-color: red;
+`;
+
+export const DropDownList = styled.ul`
+
+`;
+
+export const ListItem = styled.li`
+
+`;
+
 export const HeaderLogin = styled.div`
     z-index: 99;
     width: 600px;
