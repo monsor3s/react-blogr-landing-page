@@ -55,6 +55,7 @@ export const HeaderItem = styled.li`
     color: var(--white);
     display: flex;
     align-items: center;
+    justify-content: center;
 
     &:hover {
         text-decoration: underline;
@@ -63,8 +64,8 @@ export const HeaderItem = styled.li`
 
 export const DropDownListContainer = styled.div`
     z-index: 99;
-    width: 150px;
-    height: 170px;
+    width: 120px;
+    height: 100px;
     background-color: red;
 `;
 
