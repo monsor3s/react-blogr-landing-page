@@ -60,6 +60,12 @@ export const HeaderItem = styled.li`
     &:hover {
         text-decoration: underline;
     }
+
+    &:last-child {
+        &:hover {
+            
+        }
+    }
 `;
 
 export const DropDownListContainer = styled.div`
