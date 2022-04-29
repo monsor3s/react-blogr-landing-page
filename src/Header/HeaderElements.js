@@ -72,15 +72,20 @@ export const DropDownListContainer = styled.div`
     z-index: 99;
     width: 120px;
     height: 100px;
-    background-color: red;
+    background-color: var(--white);
 `;
 
 export const DropDownList = styled.ul`
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `;
 
 export const ListItem = styled.li`
-
+    font-size: 15px;
+    list-style: none;
+    
 `;
 
 export const HeaderLogin = styled.div`
