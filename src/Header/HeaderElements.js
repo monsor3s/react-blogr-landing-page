@@ -59,6 +59,7 @@ export const HeaderItem = styled.li`
 
     &:hover {
         text-decoration: underline;
+        cursor: pointer;
     }
 
     &:last-child {
@@ -69,6 +70,7 @@ export const HeaderItem = styled.li`
 `;
 
 export const DropDownListContainer = styled.div`
+    position: relative;
     z-index: 99;
     width: 120px;
     height: 100px;
@@ -76,6 +78,7 @@ export const DropDownListContainer = styled.div`
 `;
 
 export const DropDownList = styled.ul`
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,6 +86,8 @@ export const DropDownList = styled.ul`
 `;
 
 export const ListItem = styled.li`
+    width: auto;
+    height: 100px;
     font-size: 15px;
     list-style: none;
     
