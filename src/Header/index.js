@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import { 
   
@@ -23,6 +23,9 @@ import {
 
 
 export const Header = () => {
+  const [isHover, setIsHover] = useState(false);
+  const toggling = () => setIsHover(!isHover);
+
   return (
     <>
       <Head>
@@ -32,15 +35,17 @@ export const Header = () => {
               <HeaderTitle>Blogr</HeaderTitle>
                 <HeaderItem>Product</HeaderItem>
                 <HeaderItem>Company</HeaderItem>
-                <HeaderItem>Connect</HeaderItem>
+                <HeaderItem onmouseover={toggling}>Connect</HeaderItem>
+                {isHover && (
+                  <DropDownListContainer>
+                  <DropDownList>
+                    <ListItem>Contact</ListItem>
+                    <ListItem>Newsletter</ListItem>
+                    <ListItem>Linkedln</ListItem>
+                  </DropDownList>
+                </DropDownListContainer>
+                )}
             </HeaderMenu>
-            <DropDownListContainer>
-              <DropDownList>
-                <ListItem>Contact</ListItem>
-                <ListItem>Newsletter</ListItem>
-                <ListItem>Linkedln</ListItem>
-              </DropDownList>
-            </DropDownListContainer>
             <HeaderLogin>
                 <ButtonLogin>Login</ButtonLogin>
                 <ButtonSignUp>SignUp</ButtonSignUp>

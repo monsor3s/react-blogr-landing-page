@@ -64,7 +64,7 @@ export const HeaderItem = styled.li`
 
     &:last-child {
         &:hover {
-            
+            z-index: 2;
         }
     }
 `;
@@ -83,7 +83,6 @@ export const DropDownListContainer = styled.div`
     border-radius: 8px;
     background-color: var(--white);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    display: none;
 `;
 
 export const DropDownList = styled.ul`
