@@ -71,18 +71,28 @@ export const HeaderItem = styled.li`
 
 export const DropDownListContainer = styled.div`
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 30px;
+    top: 100px;
+    right: 120px;
     z-index: 99;
-    width: 120px;
-    height: 100px;
+    width: 160px;
+    height: 140px;
+    border-radius: 8px;
     background-color: var(--white);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: none;
 `;
 
 export const DropDownList = styled.ul`
-    position: relative;
+    position: absolute;
+    padding: 0;
+    width: 150px;
+    height: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 `;
 
 export const ListItem = styled.li`
@@ -90,7 +100,11 @@ export const ListItem = styled.li`
     height: 100px;
     font-size: 15px;
     list-style: none;
-    
+
+    &:hover {
+        font-weight: bold;
+        cursor: pointer;
+    }
 `;
 
 export const HeaderLogin = styled.div`
