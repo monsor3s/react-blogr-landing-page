@@ -23,8 +23,8 @@ import {
 
 
 export const Header = () => {
-  const [isHover, setIsHover] = useState(false);
-  const toggling = () => setIsHover(!isHover);
+  const [isOpen, setIsOpen] = useState(false);
+  const toggling = () => setIsOpen(!isOpen);
 
   return (
     <>
@@ -35,8 +35,8 @@ export const Header = () => {
               <HeaderTitle>Blogr</HeaderTitle>
                 <HeaderItem>Product</HeaderItem>
                 <HeaderItem>Company</HeaderItem>
-                <HeaderItem onmouseover={toggling}>Connect</HeaderItem>
-                {isHover && (
+                <HeaderItem onClick={toggling}>Connect</HeaderItem>
+                {isOpen && (
                   <DropDownListContainer>
                   <DropDownList>
                     <ListItem>Contact</ListItem>
