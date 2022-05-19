@@ -19,6 +19,7 @@ import {
     DropDownListContainer,
     DropDownList,
     ListItem,
+    HeaderLinks,
     } from './HeaderElements'
 
 
@@ -31,20 +32,27 @@ export const Header = () => {
       <Head>
         <HeaderContainer>
           <ImageBackgroundDesk alt="Fundo Desk" />
+          <HeaderTitle>Blogr</HeaderTitle>
             <HeaderMenu>
-              <HeaderTitle>Blogr</HeaderTitle>
-                <HeaderItem>Product</HeaderItem>
-                <HeaderItem>Company</HeaderItem>
-                <HeaderItem onClick={toggling}>Connect</HeaderItem>
-                {isOpen && (
-                  <DropDownListContainer>
-                  <DropDownList>
-                    <ListItem>Contact</ListItem>
-                    <ListItem>Newsletter</ListItem>
-                    <ListItem>Linkedln</ListItem>
-                  </DropDownList>
-                </DropDownListContainer>
+                <HeaderItem>
+                  <HeaderLinks>Product</HeaderLinks>
+                </HeaderItem>
+                <HeaderItem>
+                  <HeaderLinks>Company</HeaderLinks>
+                </HeaderItem>
+                <HeaderItem>
+                  <HeaderLinks onClick={toggling}>Connect</HeaderLinks>
+                  {isOpen && (
+                    <DropDownListContainer>
+                    <DropDownList>
+                      <ListItem>Contact</ListItem>
+                      <ListItem>Newsletter</ListItem>
+                      <ListItem>Linkedln</ListItem>
+                    </DropDownList>
+                  </DropDownListContainer>
                 )}
+                </HeaderItem>
+                
             </HeaderMenu>
             <HeaderLogin>
                 <ButtonLogin>Login</ButtonLogin>

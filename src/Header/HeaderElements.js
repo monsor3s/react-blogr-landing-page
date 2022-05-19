@@ -24,17 +24,6 @@ export const ImageBackgroundDesk = styled.div`
     position: absolute;
 `;
 
-export const HeaderMenu = styled.ul`
-    z-index: 99;
-    width: 700px;
-    height: 100px;
-    padding: 50px 0 0 80px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-`;
-
 export const HeaderTitle = styled.h1`
     z-index: 99;
     width: 200px;
@@ -46,7 +35,18 @@ export const HeaderTitle = styled.h1`
     align-items: center;
 `;
 
-export const HeaderItem = styled.li`
+export const HeaderMenu = styled.div`
+    z-index: 99;
+    width: 700px;
+    height: 100px;
+    padding: 50px 0 0 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+`;
+
+export const HeaderItem = styled.ul`
     z-index: 99;
     width: 120px;
     height: 100px;
@@ -67,6 +67,10 @@ export const HeaderItem = styled.li`
             z-index: 2;
         }
     }
+`;
+
+export const HeaderLinks = styled.li`
+
 `;
 
 export const DropDownListContainer = styled.div`
