@@ -20,6 +20,7 @@ import {
     DropDownList,
     ListItem,
     HeaderLinks,
+    HeaderArrow,
     } from './HeaderElements'
 
 
@@ -36,6 +37,7 @@ export const Header = () => {
             <HeaderMenu>
                 <HeaderItem>
                   <HeaderLinks>Product</HeaderLinks>
+                  <HeaderArrow src="../images/icon-arrow-dark.svg" />
                 </HeaderItem>
                 <HeaderItem>
                   <HeaderLinks>Company</HeaderLinks>

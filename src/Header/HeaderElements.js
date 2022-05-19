@@ -73,6 +73,11 @@ export const HeaderLinks = styled.li`
 
 `;
 
+export const HeaderArrow = styled.img`
+    display: inline-block;
+    position: relative;
+`;
+
 export const DropDownListContainer = styled.div`
     position: relative;
     display: flex;
