@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import ArrowHeader from '../images/icon-arrow-light.svg'
+
 
 import { 
   
@@ -37,7 +39,7 @@ export const Header = () => {
             <HeaderMenu>
                 <HeaderItem>
                   <HeaderLinks>Product</HeaderLinks>
-                  <HeaderArrow src="../images/icon-arrow-dark.svg" />
+                  <HeaderArrow src={ ArrowHeader } alt="arrow header" />
                 </HeaderItem>
                 <HeaderItem>
                   <HeaderLinks>Company</HeaderLinks>
@@ -46,15 +48,14 @@ export const Header = () => {
                   <HeaderLinks onClick={toggling}>Connect</HeaderLinks>
                   {isOpen && (
                     <DropDownListContainer>
-                    <DropDownList>
-                      <ListItem>Contact</ListItem>
-                      <ListItem>Newsletter</ListItem>
-                      <ListItem>Linkedln</ListItem>
-                    </DropDownList>
-                  </DropDownListContainer>
-                )}
+                      <DropDownList>
+                        <ListItem>Contact</ListItem>
+                        <ListItem>Newsletter</ListItem>
+                        <ListItem>Linkedln</ListItem>
+                      </DropDownList>
+                    </DropDownListContainer>
+                  )}
                 </HeaderItem>
-                
             </HeaderMenu>
             <HeaderLogin>
                 <ButtonLogin>Login</ButtonLogin>

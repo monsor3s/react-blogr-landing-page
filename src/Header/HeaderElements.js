@@ -74,6 +74,9 @@ export const HeaderLinks = styled.li`
 `;
 
 export const HeaderArrow = styled.img`
+    width: 8px;
+    height: 8px;
+    z-index: 99;
     display: inline-block;
     position: relative;
 `;
