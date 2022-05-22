@@ -23,6 +23,9 @@ import {
     ListItem,
     HeaderLinks,
     HeaderArrow,
+    Nav,
+    NavContainer,
+    ContainerTitle,
     } from './HeaderElements'
 
 
@@ -35,32 +38,40 @@ export const Header = () => {
       <Head>
         <HeaderContainer>
           <ImageBackgroundDesk alt="Fundo Desk" />
-          <HeaderTitle>Blogr</HeaderTitle>
-            <HeaderMenu>
-                <HeaderItem>
-                  <HeaderLinks>Product</HeaderLinks>
-                  <HeaderArrow src={ ArrowHeader } alt="arrow header" />
-                </HeaderItem>
-                <HeaderItem>
-                  <HeaderLinks>Company</HeaderLinks>
-                </HeaderItem>
-                <HeaderItem>
-                  <HeaderLinks onClick={toggling}>Connect</HeaderLinks>
-                  {isOpen && (
-                    <DropDownListContainer>
-                      <DropDownList>
-                        <ListItem>Contact</ListItem>
-                        <ListItem>Newsletter</ListItem>
-                        <ListItem>Linkedln</ListItem>
-                      </DropDownList>
-                    </DropDownListContainer>
-                  )}
-                </HeaderItem>
-            </HeaderMenu>
-            <HeaderLogin>
-                <ButtonLogin>Login</ButtonLogin>
-                <ButtonSignUp>SignUp</ButtonSignUp>
-            </HeaderLogin>
+          <Nav>
+            <NavContainer>
+                <HeaderMenu>
+                  <ContainerTitle>
+                    <HeaderTitle>Blogr</HeaderTitle>
+                  </ContainerTitle>
+                  <HeaderItem>
+                    <HeaderLinks>Product</HeaderLinks>
+                    <HeaderArrow src={ ArrowHeader } alt="arrow header" />
+                  </HeaderItem>
+                  <HeaderItem>
+                    <HeaderLinks>Company</HeaderLinks>
+                    <HeaderArrow src={ ArrowHeader } alt="arrow header" />
+                  </HeaderItem>
+                  <HeaderItem>
+                    <HeaderLinks onClick={toggling}>Connect</HeaderLinks>
+                    <HeaderArrow src={ ArrowHeader } alt="arrow header" />
+                    {isOpen && (
+                      <DropDownListContainer>
+                        <DropDownList>
+                          <ListItem>Contact</ListItem>
+                          <ListItem>Newsletter</ListItem>
+                          <ListItem>Linkedln</ListItem>
+                        </DropDownList>
+                      </DropDownListContainer>
+                    )}
+                  </HeaderItem>
+              </HeaderMenu>
+              <HeaderLogin>
+                  <ButtonLogin>Login</ButtonLogin>
+                  <ButtonSignUp>SignUp</ButtonSignUp>
+              </HeaderLogin>
+              </NavContainer>
+            </Nav>
             <HeaderBody>
               <HeaderBodyTitle>A modern publishing platform</HeaderBodyTitle>
               <HeaderBodySpan>Grow your audience and build your online brand</HeaderBodySpan>

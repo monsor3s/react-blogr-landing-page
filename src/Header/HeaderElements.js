@@ -24,36 +24,58 @@ export const ImageBackgroundDesk = styled.div`
     position: absolute;
 `;
 
+export const Nav = styled.nav`
+    position: relative;
+    display: flex;
+    justify-content: center;
+`;
+
+export const NavContainer = styled.div`
+    position: absolute;
+    width: 1132px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const ContainerTitle = styled.div`
+    position: relative;
+    width: 126px;
+    height: 61px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+`;
+
 export const HeaderTitle = styled.h1`
+    position: relative;
     z-index: 99;
-    width: 200px;
-    height: 100px;
-    font-size: 45px;
+    width: 126px;
+    height: 61px;
+    font-size: 30px;
     color: var(--white);
-    padding: 0 0 0 50px;
     display: flex;
     align-items: center;
 `;
 
 export const HeaderMenu = styled.div`
+    position: relative;
     z-index: 99;
-    width: 700px;
-    height: 100px;
-    padding: 50px 0 0 80px;
+    width: 332px;
+    height: 61px;
+    padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    list-style: none;
 `;
 
 export const HeaderItem = styled.ul`
     z-index: 99;
-    width: 120px;
-    height: 100px;
-    font-size: 20px;
-    font-weight: bold;
-    color: var(--white);
+    width: 332px;
+    height: 61px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 
@@ -70,15 +92,26 @@ export const HeaderItem = styled.ul`
 `;
 
 export const HeaderLinks = styled.li`
-
+    position: absolute;
+    width: 110px;
+    height: 61px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--white);
 `;
 
 export const HeaderArrow = styled.img`
     width: 8px;
-    height: 8px;
+    height: 6px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     z-index: 99;
-    display: inline-block;
-    position: relative;
 `;
 
 export const DropDownListContainer = styled.div`
@@ -119,16 +152,18 @@ export const ListItem = styled.li`
 `;
 
 export const HeaderLogin = styled.div`
+    position: relative;
     z-index: 99;
-    width: 600px;
-    height: 100px;
-    padding: 50px 0 0 0;
+    width: 230px;
+    height: 61px;
+    padding: 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 `;
 
 export const ButtonLogin = styled.a`
+    position: relative;
     z-index: 99;
     font-size: 14px;
     color: var(--white);
@@ -140,6 +175,7 @@ export const ButtonLogin = styled.a`
 `;
 
 export const ButtonSignUp = styled.button`
+    position: relative;
     z-index: 99;
     font-size: 14px;
     width: 100px;
