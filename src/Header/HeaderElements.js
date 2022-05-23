@@ -31,6 +31,7 @@ export const Nav = styled.nav`
 `;
 
 export const NavContainer = styled.div`
+    z-index: 99;
     position: absolute;
     width: 1132px;
     height: 61px;
@@ -40,16 +41,15 @@ export const NavContainer = styled.div`
 `;
 
 export const ContainerTitle = styled.div`
+    z-index: 99;
     position: relative;
     width: 126px;
     height: 61px;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
 `;
 
 export const HeaderTitle = styled.h1`
-    position: relative;
+    position: absolute;
     z-index: 99;
     width: 126px;
     height: 61px;

@@ -44,7 +44,7 @@ export const Header = () => {
                   <ContainerTitle>
                     <HeaderTitle>Blogr</HeaderTitle>
                   </ContainerTitle>
-                  <HeaderItem>
+                  <HeaderItem> 
                     <HeaderLinks>Product</HeaderLinks>
                     <HeaderArrow src={ ArrowHeader } alt="arrow header" />
                   </HeaderItem>
