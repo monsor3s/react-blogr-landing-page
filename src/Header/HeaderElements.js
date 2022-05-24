@@ -28,16 +28,17 @@ export const Nav = styled.nav`
     position: relative;
     display: flex;
     justify-content: center;
+    margin-top: 40px;
 `;
 
 export const NavContainer = styled.div`
     z-index: 99;
-    position: absolute;
+    position: relative;
     width: 1132px;
     height: 61px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    
 `;
 
 export const ContainerTitle = styled.div`
@@ -46,14 +47,16 @@ export const ContainerTitle = styled.div`
     width: 126px;
     height: 61px;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
 `;
 
 export const HeaderTitle = styled.h1`
-    position: absolute;
+    position: relative;
     z-index: 99;
     width: 126px;
     height: 61px;
-    font-size: 30px;
+    font-size: 40px;
     color: var(--white);
     display: flex;
     align-items: center;
@@ -66,16 +69,16 @@ export const HeaderMenu = styled.div`
     height: 61px;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 `;
 
 export const HeaderItem = styled.ul`
+    position: relative;
     z-index: 99;
-    width: 332px;
+    width: 110px;
     height: 61px;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 
@@ -97,8 +100,9 @@ export const HeaderLinks = styled.li`
     height: 61px;
     padding: 0;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     list-style: none;
     font-size: 14px;
     font-weight: bold;
@@ -106,12 +110,12 @@ export const HeaderLinks = styled.li`
 `;
 
 export const HeaderArrow = styled.img`
-    width: 8px;
+    z-index: 99;
+    width: 10px;
     height: 6px;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    z-index: 99;
+    flex-direction: row;
+
 `;
 
 export const DropDownListContainer = styled.div`
@@ -158,7 +162,7 @@ export const HeaderLogin = styled.div`
     height: 61px;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 `;
 
