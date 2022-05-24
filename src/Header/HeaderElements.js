@@ -38,7 +38,7 @@ export const NavContainer = styled.div`
     height: 61px;
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-between;
 `;
 
 export const ContainerTitle = styled.div`
@@ -67,7 +67,6 @@ export const HeaderMenu = styled.div`
     z-index: 99;
     width: 332px;
     height: 61px;
-    padding: 0;
     display: flex;
     justify-content: flex-start;
     align-items: center;
