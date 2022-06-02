@@ -44,27 +44,27 @@ export const Header = () => {
                         <HeaderTitle>Blogr</HeaderTitle>
                       </ContainerTitle>
                         <HeaderMenu>
-                        <HeaderItem> 
-                          <HeaderLinks>Product</HeaderLinks>
-                          <HeaderArrow src={ ArrowHeader } alt="arrow header" />
-                        </HeaderItem>
-                        <HeaderItem>
-                          <HeaderLinks>Company</HeaderLinks>
-                          <HeaderArrow src={ ArrowHeader } alt="arrow header" />
-                        </HeaderItem>
-                        <HeaderItem>
-                          <HeaderLinks onClick={toggling}>Connect</HeaderLinks>
-                          <HeaderArrow src={ ArrowHeader } alt="arrow header" />
-                          {isOpen && (
-                            <DropDownListContainer>
-                              <DropDownList>
-                                <ListItem>Contact</ListItem>
-                                <ListItem>Newsletter</ListItem>
-                                <ListItem>Linkedln</ListItem>
-                              </DropDownList>
-                            </DropDownListContainer>
-                          )}
-                        </HeaderItem>
+                          <HeaderItem> 
+                            <HeaderLinks>Product</HeaderLinks>
+                            <HeaderArrow src={ ArrowHeader } alt="arrow header" />
+                          </HeaderItem>
+                          <HeaderItem>
+                            <HeaderLinks>Company</HeaderLinks>
+                            <HeaderArrow src={ ArrowHeader } alt="arrow header" />
+                          </HeaderItem>
+                          <HeaderItem>
+                            <HeaderLinks onClick={toggling}>Connect</HeaderLinks>
+                            <HeaderArrow src={ ArrowHeader } alt="arrow header" />
+                            {isOpen && (
+                              <DropDownListContainer>
+                                <DropDownList>
+                                  <ListItem>Contact</ListItem>
+                                  <ListItem>Newsletter</ListItem>
+                                  <ListItem>Linkedln</ListItem>
+                                </DropDownList>
+                              </DropDownListContainer>
+                            )}
+                          </HeaderItem>
                         </HeaderMenu>
                           <HeaderLogin>
                               <ButtonLogin>Login</ButtonLogin>
