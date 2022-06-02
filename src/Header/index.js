@@ -40,38 +40,38 @@ export const Header = () => {
           <ImageBackgroundDesk alt="Fundo Desk" />
           <Nav>
             <NavContainer>
-                  <ContainerTitle>
-                    <HeaderTitle>Blogr</HeaderTitle>
-                  </ContainerTitle>
-                <HeaderMenu>
-                    <HeaderItem> 
-                      <HeaderLinks>Product</HeaderLinks>
-                      <HeaderArrow src={ ArrowHeader } alt="arrow header" />
-                    </HeaderItem>
-                    <HeaderItem>
-                      <HeaderLinks>Company</HeaderLinks>
-                      <HeaderArrow src={ ArrowHeader } alt="arrow header" />
-                    </HeaderItem>
-                    <HeaderItem>
-                      <HeaderLinks onClick={toggling}>Connect</HeaderLinks>
-                      <HeaderArrow src={ ArrowHeader } alt="arrow header" />
-                      {isOpen && (
-                        <DropDownListContainer>
-                          <DropDownList>
-                            <ListItem>Contact</ListItem>
-                            <ListItem>Newsletter</ListItem>
-                            <ListItem>Linkedln</ListItem>
-                          </DropDownList>
-                        </DropDownListContainer>
-                      )}
-                    </HeaderItem>
-                </HeaderMenu>
-              <HeaderLogin>
-                  <ButtonLogin>Login</ButtonLogin>
-                  <ButtonSignUp>SignUp</ButtonSignUp>
-              </HeaderLogin>
-              </NavContainer>
-            </Nav>
+                      <ContainerTitle>
+                        <HeaderTitle>Blogr</HeaderTitle>
+                      </ContainerTitle>
+                        <HeaderMenu>
+                        <HeaderItem> 
+                          <HeaderLinks>Product</HeaderLinks>
+                          <HeaderArrow src={ ArrowHeader } alt="arrow header" />
+                        </HeaderItem>
+                        <HeaderItem>
+                          <HeaderLinks>Company</HeaderLinks>
+                          <HeaderArrow src={ ArrowHeader } alt="arrow header" />
+                        </HeaderItem>
+                        <HeaderItem>
+                          <HeaderLinks onClick={toggling}>Connect</HeaderLinks>
+                          <HeaderArrow src={ ArrowHeader } alt="arrow header" />
+                          {isOpen && (
+                            <DropDownListContainer>
+                              <DropDownList>
+                                <ListItem>Contact</ListItem>
+                                <ListItem>Newsletter</ListItem>
+                                <ListItem>Linkedln</ListItem>
+                              </DropDownList>
+                            </DropDownListContainer>
+                          )}
+                        </HeaderItem>
+                        </HeaderMenu>
+                          <HeaderLogin>
+                              <ButtonLogin>Login</ButtonLogin>
+                              <ButtonSignUp>SignUp</ButtonSignUp>
+                          </HeaderLogin>
+            </NavContainer>
+          </Nav>
             <HeaderBody>
               <HeaderBodyTitle>A modern publishing platform</HeaderBodyTitle>
               <HeaderBodySpan>Grow your audience and build your online brand</HeaderBodySpan>

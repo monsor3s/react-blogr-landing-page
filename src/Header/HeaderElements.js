@@ -25,7 +25,6 @@ export const ImageBackgroundDesk = styled.div`
 `;
 
 export const Nav = styled.nav`
-    position: relative;
     display: flex;
     justify-content: center;
     margin-top: 40px;
@@ -37,8 +36,6 @@ export const NavContainer = styled.div`
     width: 1132px;
     height: 61px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 `;
 
 export const ContainerTitle = styled.div`
@@ -94,7 +91,7 @@ export const HeaderItem = styled.ul`
 `;
 
 export const HeaderLinks = styled.li`
-    position: absolute;
+    position: relative;
     width: 110px;
     height: 61px;
     padding: 0;
@@ -112,8 +109,8 @@ export const HeaderArrow = styled.img`
     z-index: 99;
     width: 10px;
     height: 6px;
+    margin-left: 2px;
     display: flex;
-    flex-direction: row;
 
 `;
 
@@ -159,9 +156,8 @@ export const HeaderLogin = styled.div`
     z-index: 99;
     width: 230px;
     height: 61px;
-    padding: 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 `;
 
