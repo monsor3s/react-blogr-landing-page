@@ -35,8 +35,9 @@ export const NavContainer = styled.div`
     position: relative;
     width: 1132px;
     height: 61px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr; 
 `;
 
 export const ContainerTitle = styled.div`
@@ -66,11 +67,14 @@ export const HeaderMenu = styled.div`
     width: 332px;
     height: 61px;
     display: flex;
+    grid-column-start: 2;
+    grid-column-end: 3;
 `;
 
 export const HeaderItem = styled.ul`
     position: relative;
     z-index: 99;
+    padding: 0;
     width: 110px;
     height: 61px;
     display: flex;
@@ -91,9 +95,8 @@ export const HeaderItem = styled.ul`
 
 export const HeaderLinks = styled.li`
     position: relative;
-    width: 110px;
+    width: 60px;
     height: 61px;
-    padding: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -108,7 +111,7 @@ export const HeaderArrow = styled.img`
     z-index: 99;
     width: 10px;
     height: 6px;
-    margin-left: 2px;
+    margin-left: 1px;
     display: flex;
 
 `;
@@ -155,9 +158,12 @@ export const HeaderLogin = styled.div`
     z-index: 99;
     width: 230px;
     height: 61px;
+    grid-column-start: 6;
+    grid-column-end: 7;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 `;
 
 export const ButtonLogin = styled.a`
