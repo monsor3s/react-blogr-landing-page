@@ -3,6 +3,7 @@ import bgDesk from '../images/bg-pattern-intro-desktop.svg'
 
 
 export const Head = styled.div`
+    
 `;
 
 export const HeaderContainer = styled.div`
@@ -81,16 +82,6 @@ export const HeaderItem = styled.ul`
     align-items: center;
     justify-content: center;
 
-    &:hover {
-        text-decoration: underline;
-        cursor: pointer;
-    }
-
-    &:last-child {
-        &:hover {
-            z-index: 2;
-        }
-    }
 `;
 
 export const HeaderLinks = styled.li`
@@ -105,6 +96,11 @@ export const HeaderLinks = styled.li`
     font-size: 14px;
     font-weight: bold;
     color: var(--white);
+
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
 `;
 
 export const HeaderArrow = styled.img`
@@ -113,42 +109,47 @@ export const HeaderArrow = styled.img`
     height: 6px;
     margin-left: 1px;
     display: flex;
-
 `;
 
 export const DropDownListContainer = styled.div`
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 0 0 30px;
-    top: 100px;
-    right: 120px;
+    top: 62px;
+    left: 0;
+    right: 0;
+    bottom: 0;
     z-index: 99;
     width: 160px;
     height: 140px;
     border-radius: 8px;
     background-color: var(--white);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
 `;
 
 export const DropDownList = styled.ul`
-    position: absolute;
+    position: relative;
     padding: 0;
     width: 150px;
     height: 100px;
+    margin: 20px 0 0 25px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 `;
 
 export const ListItem = styled.li`
     width: auto;
     height: 100px;
-    font-size: 15px;
+    font-size: 16px;
     list-style: none;
 
     &:hover {
         font-weight: bold;
+        text-decoration: none;
         cursor: pointer;
     }
 `;
