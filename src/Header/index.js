@@ -26,6 +26,7 @@ import {
     Nav,
     NavContainer,
     ContainerTitle,
+    ContainerButton,
     } from './HeaderElements'
 
 
@@ -75,8 +76,10 @@ export const Header = () => {
           <HeaderBody>
               <HeaderBodyTitle>A modern publishing platform</HeaderBodyTitle>
               <HeaderBodySpan>Grow your audience and build your online brand</HeaderBodySpan>
+              <ContainerButton>
                 <ButtonStart>Start for Free</ButtonStart>
                 <ButtonLearn>Learn More</ButtonLearn>
+              </ContainerButton>
           </HeaderBody>
         </HeaderContainer>
       </Head>

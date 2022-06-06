@@ -184,8 +184,8 @@ export const ButtonSignUp = styled.button`
     position: relative;
     z-index: 99;
     font-size: 14px;
-    width: 100px;
-    height: 30px;
+    width: 110px;
+    height: 35px;
     color: var(--light-red);
     font-weight: bold;
     border-radius: 15px;
@@ -205,6 +205,7 @@ export const HeaderBody = styled.div`
     width: 840px;
     height: 260px;
     position: absolute;
+    margin: 150px 0 0 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -215,7 +216,7 @@ export const HeaderBody = styled.div`
 export const HeaderBodyTitle = styled.h1`
     z-index: 99;
     width: 840px;
-    height: 50px;
+    height: 60px;
     font-size: 60px;
     position: relative;
     color: var(--white);
@@ -227,7 +228,7 @@ export const HeaderBodyTitle = styled.h1`
 export const HeaderBodySpan = styled.span`
     z-index: 99;
     width: 840px;
-    height: 50px;
+    height: 60px;
     font-size: 20px;
     position: relative;
     color: var(--gray-blue);
@@ -236,10 +237,21 @@ export const HeaderBodySpan = styled.span`
     align-items: center;
 `;
 
+export const ContainerButton = styled.div`
+    z-index: 99;
+    position: relative;
+    width: 240px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+`;
+
 export const ButtonStart = styled(ButtonSignUp)`
-    position: absolute;
-    left: 200px;
-    bottom: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &:hover {
         background-color: #fe7c86;
@@ -248,9 +260,10 @@ export const ButtonStart = styled(ButtonSignUp)`
 `;
 
 export const ButtonLearn = styled(ButtonSignUp)`
-    position: absolute;
-    right: 200px;
-    bottom: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid var(--white);
     background-color: #ff585e;
     color: var(--white);
