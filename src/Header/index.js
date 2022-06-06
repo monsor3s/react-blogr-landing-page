@@ -72,12 +72,12 @@ export const Header = () => {
                           </HeaderLogin>
             </NavContainer>
           </Nav>
-            <HeaderBody>
+          <HeaderBody>
               <HeaderBodyTitle>A modern publishing platform</HeaderBodyTitle>
               <HeaderBodySpan>Grow your audience and build your online brand</HeaderBodySpan>
                 <ButtonStart>Start for Free</ButtonStart>
                 <ButtonLearn>Learn More</ButtonLearn>
-            </HeaderBody>
+          </HeaderBody>
         </HeaderContainer>
       </Head>
     </>
