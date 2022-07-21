@@ -1,7 +1,7 @@
 # 💻 Frontend Pratice - Blogr landing page
 
 <h1 align="center">
-  <img src="./src/assets/logo.png"/>
+  <img src="./src/images/logo.svg"/>
 <h1>
 
 Essa é a solução do desafio [Blogr landing page]([https://www.frontendpractice.com/projects/backstage-talks](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP/hub/blogr-landing-page-cU28qmsYD)). 
