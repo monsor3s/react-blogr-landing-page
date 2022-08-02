@@ -8,7 +8,6 @@ const GlobalStyle = createGlobalStyle`
     font-size: 62.5%;
     font-family: 'Overpass', 'Ubuntu', sans-serif;
     width: 1440px;
-    height: 3394px;
 }
 
 :root {

@@ -1,7 +1,8 @@
 import React from 'react';
+import Body from './components/Body';
+import Header from './components/Header';
 
 import GlobalStyle from './styles/global';
-import Header from "./Header";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
     <GlobalStyle />
     <Header />
+    <Body />
     </>
   );
 }

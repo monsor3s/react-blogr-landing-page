@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import bgDesk from '../images/bg-pattern-intro-desktop.svg'
+import bgDesk from '../../images/bg-pattern-intro-desktop.svg'
 
 
 export const Head = styled.div`

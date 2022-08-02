@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
-import ArrowHeader from '../images/icon-arrow-light.svg'
+import ArrowHeader from '../../images/icon-arrow-light.svg'
 
 
 import { 
-  
     Head,
     HeaderContainer, 
     ImageBackgroundDesk,
