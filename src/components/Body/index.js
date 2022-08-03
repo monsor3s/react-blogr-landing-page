@@ -5,7 +5,7 @@ export const Body = () => {
   return (
     <BodyBackground>
         <BodyContainer>
-
+          
         </BodyContainer>
     </BodyBackground>
   )
