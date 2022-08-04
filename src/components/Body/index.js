@@ -1,17 +1,21 @@
 import React from 'react'
-import Circles from '../../images/bg-pattern-circles.svg'
 import EditorDesk from '../../images/illustration-editor-desktop.svg'
-import { BodyBackground, 
+import { 
+  BodyBackground, 
   BodyContainer, 
-  ImageCircle, 
-  ImageEditorDesk } from './BodyElements'
+  BodySectionOne,
+  ImageEditorDesk,
+  TitleSectionOne
+} from './BodyElements'
 
 export const Body = () => {
   return (
     <BodyBackground>
         <BodyContainer>
-          <ImageCircle src={Circles} alt="Cicles"/>
-          <ImageEditorDesk src={EditorDesk} alt="Editor Desk"/>
+          <BodySectionOne>
+            <ImageEditorDesk src={EditorDesk} alt="Editor Desk"/>
+            <TitleSectionOne>Designed for the future</TitleSectionOne>
+          </BodySectionOne>
         </BodyContainer>
     </BodyBackground>
   )
