@@ -18,7 +18,7 @@ export const HeaderContainer = styled.div`
 `;
 
 export const ImageBackgroundDesk = styled.div`
-    z-index: 0;
+    z-index: 1;
     background-image: url(${bgDesk});
     background-size: cover;
     background-size: 210% 44%;

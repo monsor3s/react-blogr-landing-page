@@ -14,7 +14,7 @@ export const Body = () => {
         <BodyContainer>
           <BodySectionOne>
             <ImageEditorDesk src={EditorDesk} alt="Editor Desk"/>
-            <TitleSectionOne>Designed for the future</TitleSectionOne>
+            {/* <TitleSectionOne>Designed for the future</TitleSectionOne> */}
           </BodySectionOne>
         </BodyContainer>
     </BodyBackground>
