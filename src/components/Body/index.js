@@ -4,6 +4,7 @@ import {
   BodyBackground, 
   BodyContainer, 
   BodySectionOne,
+  BodySectionOneContainer,
   ImageEditorDesk,
   TitleSectionOne
 } from './BodyElements'
@@ -14,7 +15,9 @@ export const Body = () => {
         <BodyContainer>
           <BodySectionOne>
             <ImageEditorDesk src={EditorDesk} alt="Editor Desk"/>
-            {/* <TitleSectionOne>Designed for the future</TitleSectionOne> */}
+              <BodySectionOneContainer>
+                <TitleSectionOne>Designed for the future</TitleSectionOne>
+              </BodySectionOneContainer>
           </BodySectionOne>
         </BodyContainer>
     </BodyBackground>
