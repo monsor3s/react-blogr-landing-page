@@ -23,6 +23,7 @@ export const ImageBackgroundDesk = styled.div`
     background-size: cover;
     background-size: 210% 44%;
     background-position: center;
+    background-repeat: no-repeat;
     position: absolute;
 `;
 

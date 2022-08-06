@@ -1,5 +1,5 @@
 import React from 'react'
-import EditorDesk from '../../images/illustration-editor-desktop.svg'
+
 import { 
   BodyBackground, 
   BodyContainer, 
@@ -14,7 +14,7 @@ export const Body = () => {
     <BodyBackground>
         <BodyContainer>
           <BodySectionOne>
-            <ImageEditorDesk src={EditorDesk} alt="Editor Desk"/>
+            <ImageEditorDesk alt="Editor Desk"/>
               <BodySectionOneContainer>
                 {/* <TitleSectionOne>Designed for the future</TitleSectionOne> */}
               </BodySectionOneContainer>

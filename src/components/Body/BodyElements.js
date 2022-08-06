@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import EditorDesk from "../../images/illustration-editor-desktop.svg"
 
 export const BodyBackground = styled.div`
     
@@ -20,9 +21,11 @@ export const BodySectionOne = styled.div`
 
 `;
 
-export const ImageEditorDesk = styled.img`
-    width: 750px;
-    height: 700px;
+export const ImageEditorDesk = styled.div`
+    background-image: url(${EditorDesk});
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 110%;
     display: flex;
 `;
 
