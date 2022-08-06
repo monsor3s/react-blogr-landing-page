@@ -16,7 +16,7 @@ export const Body = () => {
           <BodySectionOne>
             <ImageEditorDesk src={EditorDesk} alt="Editor Desk"/>
               <BodySectionOneContainer>
-                <TitleSectionOne>Designed for the future</TitleSectionOne>
+                {/* <TitleSectionOne>Designed for the future</TitleSectionOne> */}
               </BodySectionOneContainer>
           </BodySectionOne>
         </BodyContainer>
