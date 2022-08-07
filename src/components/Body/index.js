@@ -14,8 +14,8 @@ export const Body = () => {
     <BodyBackground>
         <BodyContainer>
           <BodySectionOne>
-            <ImageEditorDesk alt="Editor Desk"/>
               <BodySectionOneContainer>
+                <ImageEditorDesk alt="Editor Desk"/>
                 {/* <TitleSectionOne>Designed for the future</TitleSectionOne> */}
               </BodySectionOneContainer>
           </BodySectionOne>
